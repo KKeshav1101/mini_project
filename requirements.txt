@@ -1,0 +1,7 @@
+Django>=3.2,<5.0
+nltk
+numpy
+pandas
+keras
+tensorflow
+scikit-learn
