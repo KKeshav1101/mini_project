@@ -43,6 +43,7 @@
         .form-group {
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             gap: 10px;
         }
         .form-group div {
@@ -104,9 +105,15 @@
                         <option value="biGRU">biGRU</option>
                         <option value="distilBERT">distilBERT</option>
                     </select>
-                    <button type="button" id="modelInfoBtn" class="btn btn-outline-info" title="Model Info">
-                        i
-                    </button>
+                        <button
+                            type="button"
+                            id="modelInfoBtn"
+                            class="btn btn-outline-info d-flex align-items-center justify-content-center"
+                            title="Model Info"
+                            style="width: 30px; height: 30px; border-radius: 50%; font-size: 15px; padding: 0;margin-left:4px;">
+                            i
+                        </button>
+
                     </div>
                     <input type="submit" class="btn btn-primary" value="Post">
                 </div>
